@@ -1,0 +1,8 @@
+<?php
+// Copy this file to "config/autoload/weather-underground.local.php"
+return array(
+//SocialConnect
+    'weather-underground' => array(
+
+    );
+);

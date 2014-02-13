@@ -1,0 +1,26 @@
+{
+    "name": "nask0/zf2-social-connect",
+    "description": "Zend Framework 2 Weather Underground API Service",
+    "type": "zf-module",
+    "license": "BSD-3-Clause",
+    "keywords": ["zf2", "module"],
+    "homepage": "https://github.com/nask0/zf2-wu-service.git",
+    "authors": [
+        {
+            "name": "Atanas Beloborodov",
+            "email": "nask0@cod3r.net"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.3",
+        "zendframework/zendframework" : "2.*",
+    },
+    "autoload": {
+        "psr-0": {
+            "WeatherUnderground": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
