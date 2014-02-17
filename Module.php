@@ -1,6 +1,5 @@
 <?php
-//namespace ThirdPartyConnect;
-namespace SocialConnect;
+namespace WeatherUnderground;
 
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\Mvc\ModuleRouteListener;
@@ -30,9 +29,7 @@ class Module implements AutoloaderProviderInterface
     {
         return array(
             'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
-                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
-                ),
+                'namespaces' => array(__NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,),
             ),
         );
     }
